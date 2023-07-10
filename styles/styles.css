@@ -64,3 +64,44 @@ main {
   list-style: square;
   margin-left: 30px;
 }
+
+/* my plans section styles */
+.my-plan{
+    margin-top: 70px;
+}
+
+.my-plan-title{
+    text-align: center;
+}
+
+.want-to-container div > h3{
+    margin: 18px 0;
+}
+.want-to-container div > p{
+    color: #737272;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.want-to-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.want-to-container> div{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+/* mindset section styles */
+.mindset{
+    margin-top: 200px;
+}

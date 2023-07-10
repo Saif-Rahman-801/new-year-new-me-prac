@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header related styles */
+.heading-banner-container {
+  width: 100%;
+  margin: 0 auto;
+  /* height: 100vh; */
+  /* background-image: url("../images/banner/banner1.png"); */
+}
+.heading-banner-content {
+  margin: 30px;
+  text-align: right;
+}
+
+.banner-titile {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.banner-desc {
+  margin: 25px 0;
+}
+
+.btn-primary {
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #f15b22;
+  color: aliceblue;
+}

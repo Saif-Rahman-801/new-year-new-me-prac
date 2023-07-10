@@ -7,12 +7,16 @@
 /* header related styles */
 .heading-banner-container {
   width: 100%;
-  margin: 0 auto;
-  /* height: 100vh; */
-  /* background-image: url("../images/banner/banner1.png"); */
+  height: 800px;
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .heading-banner-content {
-  margin: 30px;
+  margin: 0 30px;
   text-align: right;
 }
 
@@ -33,4 +37,13 @@
   border-radius: 5px;
   background: #f15b22;
   color: aliceblue;
+}
+
+
+
+
+
+/* main section styles */
+.main{
+    margin-top: 100px;
 }

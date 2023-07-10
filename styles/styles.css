@@ -39,11 +39,28 @@
   color: aliceblue;
 }
 
-
-
-
-
 /* main section styles */
-.main{
-    margin-top: 100px;
+main {
+  margin-top: 100px;
+}
+
+.failure-banner {
+  max-width: 100%;
+}
+
+.person-png {
+  width: 500px;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.failure-content {
+  width: 40%;
+}
+.failure-content ul > li {
+  list-style: square;
+  margin-left: 30px;
 }

@@ -66,42 +66,58 @@ main {
 }
 
 /* my plans section styles */
-.my-plan{
-    margin-top: 70px;
+.my-plan {
+  margin-top: 70px;
 }
 
-.my-plan-title{
-    text-align: center;
+.my-plan-title {
+  text-align: center;
 }
 
-.want-to-container div > h3{
-    margin: 18px 0;
+.want-to-container div > h3 {
+  margin: 18px 0;
 }
-.want-to-container div > p{
-    color: #737272;
-    font-family: Work Sans;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.want-to-container{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
+.want-to-container div > p {
+  color: #737272;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-.want-to-container> div{
-text-align: center;
+.want-to-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-
-
-
-
-
-
+.want-to-container > div {
+  text-align: center;
+}
 
 /* mindset section styles */
-.mindset{
-    margin-top: 200px;
+.mindset {
+  margin: 200px;
+}
+
+.mindset-container {
+  max-width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #c0582eb9 0%, rgba(241, 91, 34, 0) 100%);
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 8px;
+}
+
+.mindset-title {
+  margin: 25px 0;
+  color: aliceblue;
+  padding-top: 50px;
+  padding-left: 50px;
+
+}
+
+.mindset-button{
+    padding-left: 50px;
 }
